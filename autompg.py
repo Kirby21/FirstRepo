@@ -5,7 +5,7 @@ from numpy.ma.extras import unique
 
 st.set_page_config(layout='wide')
 
-df = pd.read_csv('data/clean_auto_mpg.csv')
+df = pd.read_csv('Data/clean_auto_mpg.csv')
 
 st.markdown('### AUTO MPG Tabulated Dashboard')
 unique_origin = list(df['origin'].unique())
